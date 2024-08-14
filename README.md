@@ -1,5 +1,5 @@
 # 1byteDreamer
-Sintetizador controlado por 1byte
+Sintetizador controlado por 3 bits*
 ## Especificaciones
 - Secuenciador de irregular ritmo y frecuencia
 - 8 voltajes disponibles según banco de potenciómetros (trims)
@@ -11,6 +11,8 @@ Sintetizador controlado por 1byte
 - Salida de línea
 - Salida de VCO
 - Salida de cada oscilador disponible
+
+*<sub>Llamar al sintetizador 1byte es un error conceptual, ya que trabaja con 3 bits y no con 8. Aunque sí utiliza 8 potenciómetros y con algo de flexibilidad mental podríamos decir que 8 = byte.</sub>
 ## Esquemático
 
 [![Esquemático](sch_img.png)](https://github.com/misaaaaaa/1byteDreamer/blob/main/1byteDreamer_sch.pdf)
